@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -26,6 +27,8 @@ public class BaseClass extends ExtentReport {
 			e.getMessage();
 		}
 	}
+	
+	
 	
 	public static void browserlaunch() {
 		
@@ -55,8 +58,8 @@ public class BaseClass extends ExtentReport {
 	
 
 	  public static String getusername() { 
-		 String username = pro.getProperty("username");
-	 return username;
+		 String subcategoryname = pro.getProperty("subcategoryname");
+	 return subcategoryname;
 	 }
 	 
 	  public static String getpassword() { 

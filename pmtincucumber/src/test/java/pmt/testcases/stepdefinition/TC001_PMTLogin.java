@@ -30,7 +30,7 @@ public class TC001_PMTLogin extends BaseClass
 			loginfo.pass("Browser Launched and Entered URL succesully");
 			loginfo.addScreenCaptureFromPath(Screenshotcapture(driver));
 			
-		} catch (AssertionError | Exception e) {
+		} catch (Exception e) {
 			TestStep("Fail",driver,loginfo,e);
 		}
 		//BaseClass.browserlaunch();
@@ -48,7 +48,8 @@ public class TC001_PMTLogin extends BaseClass
 		 loginfo.pass("Username And Password Entered Successfully");
 		 loginfo.addScreenCaptureFromPath(Screenshotcapture(driver));
 		 
-		} catch (AssertionError | Exception e) {
+		} catch ( Exception e) {
+			//AssertionError |
 			TestStep("Fail",driver,loginfo,e);
 		}
 	}
@@ -90,13 +91,16 @@ public class TC001_PMTLogin extends BaseClass
 			}
 			loginfo.addScreenCaptureFromPath(Screenshotcapture(driver));
 			
-		}catch (AssertionError | Exception e) {
+		}catch ( Exception e) {
 			TestStep("Fail",driver,loginfo,e);
 		}		
 		
 		BaseClass.teardown();
 		extent.flush();
 	}
+	
+	
+	
 }
 
 

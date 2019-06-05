@@ -39,6 +39,7 @@ public class TC002_PMTproductcategory extends BaseClass {
 		}
 	}
 
+	
 	@Given("^User will mouseover and choose the product category page$")
 	public void user_will_mouseover_and_choose_the_product_category_page() throws Throwable {
 	    mpom = new Mastercategory_POM();
@@ -69,41 +70,62 @@ public class TC002_PMTproductcategory extends BaseClass {
 		//Thread.sleep(3000);
 		mpom.verifyingtext(pro.getProperty("categoryname"));
 	    System.out.println("category successfully added");
-	    BaseClass.teardown();
-	}
-/*
+	    //BaseClass.teardown();
+	} 
+
 	@Given("^User will go to master and choose product sub category$")
 	public void user_will_go_to_master_and_choose_product_sub_category() throws Throwable {
-	   
+		
+		 mpom = new Mastercategory_POM();
+		mpom.clicksubcategory();
+		
 	}
 
 	@When("^User will click on the add button and choose the category drop down list$")
 	public void user_will_click_on_the_add_button_and_choose_the_category_drop_down_list() throws Throwable {
 	    
+		mpom.addcategory1();
+		mpom.addsubcategory();
+	//	mpom.entrysubcategory(pro.getProperty("subcategoryname"));
+		//mpom.savingcategory();
+		
 	}
+	
 
-	@When("^User will ente the sub category name  and choose the equivalent and save button is clicked$")
+	@And("^User will enter the sub category name  and choose the equivalent and save button is clicked$")
 	public void user_will_ente_the_sub_category_name_and_choose_the_equivalent_and_save_button_is_clicked() throws Throwable {
-	   
+		
+		mpom.entrysubcategory(pro.getProperty("subcategoryname"));
+		mpom.savingcategory();
+		
 	}
 
 	@Then("^User will successfully added and verify the record has come$")
 	public void user_will_successfully_added_and_verify_the_record_has_come() throws Throwable {
 	    
+		System.out.println("Successfully Added");
 	}
 
 	@Given("^User will go to master and choose part description$")
 	public void user_will_go_to_master_and_choose_part_description() throws Throwable {
 	    
+		mpom = new Mastercategory_POM();
+		mpom.partdesc1();
 	}
 
-	@When("^User will click on the add button and choose the category & sub category drop down list$")
+	@And("^User will click on the add button and choose the category & sub category drop down list$")
 	public void user_will_click_on_the_add_button_and_choose_the_category_sub_category_drop_down_list() throws Throwable {
 	    
+		mpom.addcategory1();
+		mpom.addsubcategory(); //category choose
+		mpom.categoryselect(); //subcategory select
+		mpom.entrypartdesc(pro.getProperty("partdesc"));
+		mpom.savingcategory();
 	}
 
-	@When("^User will ente the part description name  and save button is clicked$")
+	@When("^User will enter the part description name  and save button is clicked$")
 	public void user_will_ente_the_part_description_name_and_save_button_is_clicked() throws Throwable {
 	    
-	}*/
+		System.out.println("Successfully Added");
+	}
 }
