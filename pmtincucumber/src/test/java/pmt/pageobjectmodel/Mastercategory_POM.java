@@ -27,7 +27,7 @@ public class Mastercategory_POM extends BaseClass {
 	@FindBy(xpath ="//a[@id='ucMenu_rptLevel1_rptLevel2_0_rptLevel3_0_lnkLink3_0']")
 	private WebElement mastercategory;
 	
-	@FindBy(xpath="//input[@id='MainContent_btnAdd']")
+	@FindBy(xpath="//button[@id='MainContent_btnAdd']")
 	private WebElement addcategory;
 	
 	@FindBy(id="MainContent_txtProductCategory")

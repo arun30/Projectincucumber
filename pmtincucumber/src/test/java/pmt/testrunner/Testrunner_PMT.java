@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "Featurefiles",
 		glue = "pmt.testcases.stepdefinition",
-		dryRun = false,
+		dryRun = true,
 		monochrome = true,
 		format = {"pretty", "html: test-output", "json:json_output/cucumbeer.json"},
 			//	plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport.html"},
