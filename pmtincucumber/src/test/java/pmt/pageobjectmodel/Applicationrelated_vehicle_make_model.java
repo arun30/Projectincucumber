@@ -1,6 +1,9 @@
 package pmt.pageobjectmodel;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
@@ -16,6 +19,7 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 		
 		PageFactory.initElements(driver, this);
 	}
+	
 	
 	
 	@FindBy(xpath = "//a[@id='ucMenu_rptLevel1_lnkLink1_0']")
@@ -43,8 +47,8 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	@FindBy(xpath="//a[@id='ucMenu_rptLevel1_rptLevel2_0_rptLevel3_1_lnkLink3_1']")
 	private WebElement clickmake;
 	
-	
-	@FindBy(xpath="//select[@id='MainContent_drpVehicleType']")
+	                
+	@FindBy(xpath="//select[@id='MainContent_drpVehicleTypeAdd']")
 	private WebElement vehicletypeselect;
 	
 	@FindBy(xpath="//input[@id='MainContent_txtMake']")
@@ -69,7 +73,8 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	@FindBy(xpath="//input[@id='MainContent_checkACESList_1']")
 	private WebElement eqmodelradiobutton;
 	
-	
+	@FindBy(xpath="//i[@class='fas fa-th-large theme_txt_clr sec_lv_menu']")
+	private WebElement clickdashboard;
 	
 	
 	
@@ -84,16 +89,19 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 		vehicletype.click();
 		Thread.sleep(5000);
 		addbutton.click();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 
 	/*
 	 * entering new vehicle type name, equivalent vehicle & save
 	 */
-	public void vehicletypename(String vehiclename) {
+	public void vehicletypename(String vehiclename) throws InterruptedException {
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		vehicleentertextbox.sendKeys(vehiclename);
 		equivalentvehicle.click();
 		savebutton.click();
+		Thread.sleep(2000);
 	}
 	
 	
@@ -103,9 +111,10 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	public void acceptAlert() throws InterruptedException{
 		Alert alert = driver.switchTo().alert();
 		//logger.log(LogStatus.INFO,"Alert text " + alert.getText());
-		System.out.println("Application Related " +pro.getProperty("vehicletypename") + alert.getText());
+		System.out.println("Application Related: " + pro.getProperty("vehicletypename") +  alert.getText());
 		alert.accept();
-		
+		Thread.sleep(2000);
+
 	}
 	
 	/*
@@ -113,13 +122,25 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	 * choosing make & clicking on the add button
 	 */
 	public void clickonmake() throws Throwable {
-		
+		//driver.navigate().refresh();
+		//Thread.sleep(2000);
+		/*boolean result = false;
+		int attempt = 0;
+		while(attempt<2) {
+			try {
+				Actions action = new Actions(driver);
+				action.moveToElement(master).build().perform();
+				result = true;
+				break
+			}
+		}*/
 		Actions action = new Actions(driver);
 		action.moveToElement(master).build().perform();
 		Thread.sleep(3000);
 		clickmake.click();
 		Thread.sleep(5000);
 		addbutton.click();
+		Thread.sleep(3000);
 	}
 	
 	
@@ -130,6 +151,7 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	public void addmakename() throws InterruptedException {
 		
 		WebElement element = vehicletypeselect;
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		Select select = new Select(element);
 		select.selectByVisibleText(pro.getProperty("vehicletypename"));		
 		Thread.sleep(2000);
@@ -141,10 +163,14 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	 * 
 	 * enter make name,choose equivalent aces make & save
 	 */
-	public void newmakename(String makename) {
+	public void newmakename(String makename) throws InterruptedException {
+		
 		maketextbox.sendKeys(makename);
+		Thread.sleep(1000);
 		eqmakeradibutton.click();
+		Thread.sleep(1000);
 		savebutton.click();
+		Thread.sleep(2000);
 		
 	}
 	
@@ -185,7 +211,7 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	 * vehicle type choose, make choose, model name add & equivalent model choose
 	 */
 	public void addmodelname() throws InterruptedException {
-		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		WebElement element = vehicletypeselect;
 		WebElement element1 = dropdownmakeselect;
 		Select select = new Select(element);
@@ -203,10 +229,11 @@ public class Applicationrelated_vehicle_make_model extends BaseClass {
 	 * 
 	 * model name add,equivalent model choose & save
 	 */
-	public void modelnameadd(String modelname) {
+	public void modelnameadd(String modelname) throws InterruptedException {
 		modeltextbox.sendKeys(modelname);
 		eqmodelradiobutton.click();
 		savebutton.click();
+		Thread.sleep(2000);
 		}
 	
 	

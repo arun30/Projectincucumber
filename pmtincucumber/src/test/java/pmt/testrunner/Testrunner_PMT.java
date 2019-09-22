@@ -9,13 +9,13 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "Featurefiles",
 		glue = "pmt.testcases.stepdefinition",
-		dryRun = true,
+		dryRun = false,
 		monochrome = true,
 		format = {"pretty", "html: test-output", "json:json_output/cucumbeer.json"},
 			//	plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport.html"},
 				//plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
-		strict = false
-				//tags = {"@SanityTest"}
+		strict = false,
+				tags = {"@application"}
 		
 		)
 

@@ -15,11 +15,11 @@ public class Pageobjectclass extends BaseClass {
 		super();
 	}*/
 	
-	@FindBy(how = How.ID,using="txtUsername")
+	@FindBy(xpath="//input[@id='txtUsername']")
 	@CacheLookup
 	private WebElement txtusername;
 	
-	@FindBy(how = How.ID,using="txtPassword")
+	@FindBy(xpath="//input[@id='txtPassword']")
 	public WebElement txtpassword;
 	
 	@FindBy(id="btnLogin")

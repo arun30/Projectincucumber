@@ -77,8 +77,14 @@ public class BaseClass extends ExtentReport {
 	
 	
 
+	public static void logindetails() {
+		driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys(pro.getProperty("username"));
+		driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys(pro.getProperty("password"));
+		driver.findElement(By.id("btnLogin")).click();
+	}
+	
 	  public static String getusername() { 
-		 String subcategoryname = pro.getProperty("subcategoryname");
+		 String subcategoryname = pro.getProperty("username");
 	 return subcategoryname;
 	 }
 	 
