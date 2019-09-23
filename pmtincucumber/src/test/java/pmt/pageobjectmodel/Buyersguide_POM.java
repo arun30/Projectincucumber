@@ -86,7 +86,7 @@ public class Buyersguide_POM extends BaseClass {
 			}
 			
 			
-			public void interchangesclick() {
+			public void buyerguideclick() {
 				BuyersGuid1click.click();
 				
 			}
@@ -165,7 +165,7 @@ public class Buyersguide_POM extends BaseClass {
 				apppartsnotes.sendKeys(apppartnotes);
 			}
 			
-			public void deletepartdesc() {
+			public void deletebuyerappln() {
 				Delete_checkbox2.click();
 				apppartdelete.click();
 				

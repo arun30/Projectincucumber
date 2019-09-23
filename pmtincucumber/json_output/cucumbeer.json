@@ -4,712 +4,6 @@
     "elements": [
       {
         "line": 5,
-        "name": "Adding Application Related vehicle type, MAke \u0026 Model Test Cases",
-        "description": "",
-        "id": "pmt-add-product-list;adding-application-related-vehicle-type,-make-\u0026-model-test-cases",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "User will mouse hover on Master and choose the vehicle type page",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_mouse_hover_on_Master_and_choose_the_vehicle_type_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "User will click on the add button and will enter the new vehicle type and choose the equivalent ACES \u0026 save",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_click_on_the_add_button_and_will_enter_the_new_vehicle_type_and_choose_the_equivalent_ACES_save()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "User will successfully added and verify the added record should be shown in grid",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_successfully_added_and_verify_the_added_record_should_be_shown_in_grid()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "User will mouse hover on master and choose the make",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_mouse_hover_on_master_and_choose_the_make()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "User will click on the add button and will choose the added vehicle type, enter the new make name and choose the equivalent ACES \u0026 save",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_click_on_the_add_button_and_will_choose_the_added_vehicle_type_enter_the_new_make_name_and_choose_the_equivalent_ACES_save()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User will successfully added and verify the added record should be shown in grid",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_successfully_added_and_verify_the_added_record_should_be_shown_in_grid()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User will mouse hover on master and choose the model",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_mouse_hover_on_master_and_choose_the_model()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User will mouse hover on master and choose the model,click on the add button and will choose the added vehicle type, make \u0026 enter the new model name and choose the equivalent ACES \u0026 save",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_mouse_hover_on_master_and_choose_the_model_click_on_the_add_button_and_will_choose_the_added_vehicle_type_make_enter_the_new_model_name_and_choose_the_equivalent_ACES_save()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "User will successfully added and verify that the record has come.",
-            "match": {
-              "location": "TC003_PMT_Master_Applicationrelated.user_will_successfully_added_and_verify_that_the_record_has_come()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "PMT Add Product List",
-    "description": "Description: User will add Application related like vehicle, make \u0026 model",
-    "id": "pmt-add-product-list",
-    "keyword": "Feature",
-    "uri": "Applicationrelated.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 5,
-        "name": "Adding part# with created product category",
-        "description": "",
-        "id": "pmt-add-product-list;adding-part#-with-created-product-category",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "User will click on parts page and it will redirect to parts page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "User will click on the add buton and choose product category, sub category,part desc, product line",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "User will enter the part# and click on save",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "User will see successfull alert and verify the part# thorugh part# search",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 12,
-        "name": "Search part# by given dropdown list",
-        "description": "",
-        "id": "pmt-add-product-list;search-part#-by-given-dropdown-list",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "User will click on parts page and it will redirect to parts page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "User will choose the category, sub category, part description, product line and part# dropdown \u0026 search",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15,
-            "name": "User will see the search part#",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "PMT Add Product List",
-    "description": "Description: User will add part#",
-    "id": "pmt-add-product-list",
-    "keyword": "Feature",
-    "uri": "Newpartadd.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 4,
-        "name": "User will login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "user will enter the url",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "user will enter the username, password and click on login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_username_password_and_click_on_login()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "user will successfully login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_successfully_login()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 9,
-        "name": "Adding product category",
-        "description": "",
-        "id": "pmt-add-product-list;adding-product-category",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "User will mouse hover and choose the product category page",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "User will click on the add button and add a new category",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_click_on_the_add_button_and_add_a_new_category()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "User will enter the category name and choose the equivalent PIES category",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_category_name_and_choose_the_equivalent_PIES_category()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "User will successfully added and verify that the record has come",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_successfully_added_and_verify_that_the_record_has_come()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "User will login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "user will enter the url",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "user will enter the username, password and click on login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_username_password_and_click_on_login()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "user will successfully login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_successfully_login()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 15,
-        "name": "Adding product sub category",
-        "description": "",
-        "id": "pmt-add-product-list;adding-product-sub-category",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 16,
-            "name": "User will go to master and choose product sub category",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_go_to_master_and_choose_product_sub_category()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "User will click on the add button and choose the category drop down list",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_click_on_the_add_button_and_choose_the_category_drop_down_list()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 18,
-            "name": "User will enter the sub category name  and choose the equivalent and save button is clicked",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_ente_the_sub_category_name_and_choose_the_equivalent_and_save_button_is_clicked()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "name": "User will successfully added and verify the record has come",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_successfully_added_and_verify_the_record_has_come()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "User will login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "user will enter the url",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "user will enter the username, password and click on login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_username_password_and_click_on_login()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "user will successfully login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_successfully_login()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 21,
-        "name": "Adding part description",
-        "description": "",
-        "id": "pmt-add-product-list;adding-part-description",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 22,
-            "name": "User will go to master and choose part description",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_go_to_master_and_choose_part_description()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 23,
-            "name": "User will click on the add button and choose the category \u0026 sub category drop down list",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_click_on_the_add_button_and_choose_the_category_sub_category_drop_down_list()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 24,
-            "name": "User will enter the part description name  and save button is clicked",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_ente_the_part_description_name_and_save_button_is_clicked()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 25,
-            "name": "User will see successfully added and verify the record has come",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "User will login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "user will enter the url",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "user will enter the username, password and click on login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_enter_the_username_password_and_click_on_login()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "user will successfully login",
-            "match": {
-              "location": "TC002_PMTproductcategory.user_will_successfully_login()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 27,
-        "name": "Adding product Line",
-        "description": "",
-        "id": "pmt-add-product-list;adding-product-line",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 28,
-            "name": "User will go to master and choose product line",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 29,
-            "name": "User will click on add button and enter the line code and line name",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 30,
-            "name": "User will see successfully alert and verify the record has come in the grid",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "PMT Add Product List",
-    "description": "Description: User will add product category,sub category \u0026 part description",
-    "id": "pmt-add-product-list",
-    "keyword": "Feature",
-    "uri": "PMTCategory.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 5,
-        "name": "Adding Inetrchange for a part#",
-        "description": "",
-        "id": "pmt-add-product-list;adding-inetrchange-for-a-part#",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "User will go to parts page and search for a part#",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "User will click on the interchange frame, choose interchange name dropdown, enter interchange part# and click save",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "User will see successfull alert and verify the record to be shown in the grid below",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 11,
-        "name": "Editing inetrchange Test case",
-        "description": "",
-        "id": "pmt-add-product-list;editing-inetrchange-test-case",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "User will go to parts page and search for the part#",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "User will click on interchange frame and will edit the notes \u0026 saved",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "User will see successfull alert and verify the record should be edited",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 17,
-        "name": "Deleting Interchange for a part#",
-        "description": "",
-        "id": "pmt-add-product-list;deleting-interchange-for-a-part#",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18,
-            "name": "User will go to parts page and search for a part#",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "User will click on interchange frame and will delete the added or available record",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20,
-            "name": "User will see successfull alert and verify the record has been deleted or not",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "PMT Add Product List",
-    "description": "Description: User will add Interchange",
-    "id": "pmt-add-product-list",
-    "keyword": "Feature",
-    "uri": "PMT_ADD_Inetrchange.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 5,
         "name": "Adding application through buyers guide",
         "description": "",
         "id": "pmt-add-product-list;adding-application-through-buyers-guide",
@@ -721,7 +15,7 @@
               "status": "undefined"
             },
             "line": 6,
-            "name": "User will go to parts page and search for a part#",
+            "name": "User will go to parts page and search for a part# and will tie-up the application",
             "match": {},
             "keyword": "Given "
           },
@@ -752,10 +46,16 @@
             "match": {},
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Buyersguide"
+          }
         ]
       },
       {
-        "line": 11,
+        "line": 12,
         "name": "Edit Application through buyers guide",
         "description": "",
         "id": "pmt-add-product-list;edit-application-through-buyers-guide",
@@ -766,8 +66,8 @@
             "result": {
               "status": "undefined"
             },
-            "line": 12,
-            "name": "User will go to parts page and search for a part#",
+            "line": 13,
+            "name": "User will go to parts page and search for a part# will edit notes",
             "match": {},
             "keyword": "Given "
           },
@@ -775,7 +75,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 13,
+            "line": 14,
             "name": "User will click on buyers guide frame, show grid will be seen along with application \u0026 edit an application",
             "match": {},
             "keyword": "When "
@@ -784,7 +84,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 14,
+            "line": 15,
             "name": "User will enter notes in notes textbox and click on save",
             "match": {},
             "keyword": "And "
@@ -793,15 +93,21 @@
             "result": {
               "status": "undefined"
             },
-            "line": 15,
+            "line": 16,
             "name": "User will see succesfull alert and verify the notes added",
             "match": {},
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Buyersguide"
+          }
         ]
       },
       {
-        "line": 17,
+        "line": 19,
         "name": "Delete Application through buyers guide",
         "description": "",
         "id": "pmt-add-product-list;delete-application-through-buyers-guide",
@@ -812,8 +118,8 @@
             "result": {
               "status": "undefined"
             },
-            "line": 18,
-            "name": "User will go to parts page and search for a part#",
+            "line": 20,
+            "name": "User will go to parts page and search for a part# to delete the application",
             "match": {},
             "keyword": "Given "
           },
@@ -821,7 +127,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 19,
+            "line": 21,
             "name": "User will click on buyers guide frame, choose the application and click on delete",
             "match": {},
             "keyword": "When "
@@ -830,10 +136,16 @@
             "result": {
               "status": "undefined"
             },
-            "line": 20,
+            "line": 22,
             "name": "User will see succesfull alert and verify the application is deleted from the show grid",
             "match": {},
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@Buyersguide"
           }
         ]
       }
@@ -843,194 +155,5 @@
     "id": "pmt-add-product-list",
     "keyword": "Feature",
     "uri": "PMT_Add_Buyerguide.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 5,
-        "name": "Adding part description Test case",
-        "description": "",
-        "id": "pmt-add-product-list;adding-part-description-test-case",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "User will go to parts page and search for the part#",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "User will click on the part description and landed in description page",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "Choose the notes type dropdown, enter the notes and click on save button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "User will see successfull alert and verify the record is shown in grid",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 12,
-        "name": "Editing part description Test case",
-        "description": "",
-        "id": "pmt-add-product-list;editing-part-description-test-case",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "User will go to parts page and search for the part#",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "User will click on part description frame and will edit the notes \u0026 saved",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15,
-            "name": "User will see successfull alert and verify the record should be edited",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 19,
-        "name": "Deleting part description Test case",
-        "description": "",
-        "id": "pmt-add-product-list;deleting-part-description-test-case",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20,
-            "name": "User will go to parts page and search for the part#",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 21,
-            "name": "User will click on part description frame and will delete the added or available record",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22,
-            "name": "User will see successfull alert and verify the record should be deleted",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "PMT Add Product List",
-    "description": "Description: User will add part description for that part#",
-    "id": "pmt-add-product-list",
-    "keyword": "Feature",
-    "uri": "PMT_Add_Partdescription.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 4,
-        "name": "Entering Valid Login Testcases",
-        "description": "",
-        "id": "pmt-valid-login-testcases;entering-valid-login-testcases",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "enter the url",
-            "match": {
-              "location": "TC001_PMTLogin.enter_the_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "User will enter the username,password and login",
-            "match": {
-              "location": "TC001_PMTLogin.user_will_enter_the_username_password_and_login()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "User will successfully login and dashboard page will be seen",
-            "match": {
-              "location": "TC001_PMTLogin.user_will_successfully_login_and_dashboard_page_will_be_seen()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@SanityTest"
-          }
-        ]
-      }
-    ],
-    "name": "PMT Valid Login TestCases",
-    "description": "",
-    "id": "pmt-valid-login-testcases",
-    "keyword": "Feature",
-    "uri": "pmtlogin.feature"
   }
 ]

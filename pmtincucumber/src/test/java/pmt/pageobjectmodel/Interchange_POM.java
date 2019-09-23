@@ -114,7 +114,7 @@ public class Interchange_POM extends BaseClass{
 		}
 		
 		
-		public void deletepartdesc() {
+		public void deletepartinter() {
 			imgDelete_0.click();
 		}
 		

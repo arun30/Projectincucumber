@@ -23,10 +23,8 @@ public class TC003_PMT_Master_Applicationrelated extends BaseClass{
 	@Before()
 	public void login_initialize() throws InterruptedException {
 	
-		//pom = new Pageobjectclass();
 		BaseClass.browserlaunch();
 		BaseClass.logindetails();
-		//pom.logindetails(pro.getProperty("username"), pro.getProperty("password"));
 		Thread.sleep(5000);
 		
 	}
