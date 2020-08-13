@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 import pmt.pageobjectmodel.Pageobjectclass;
 import pmt.utility.BaseClass;
 
-public class TC001_PMTLogin extends BaseClass 
+public class TC001_NewstuckLogin extends BaseClass 
 {
 	
 	Pageobjectclass pom;
