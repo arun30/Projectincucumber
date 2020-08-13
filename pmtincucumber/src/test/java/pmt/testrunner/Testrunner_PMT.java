@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 			//	plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/html/ExtentReport.html"},
 				//plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 		strict = false,
-				tags = {"@Buyersguide"}
+				tags = {"@Newstuck"}
 		
 		)
 
