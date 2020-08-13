@@ -30,14 +30,14 @@ public class ExtentReport {
 		String reportlocation = "./Reports/Extent_PMTReports.html";
 		report = new ExtentHtmlReporter(reportlocation);
 		report.config().setDocumentTitle("AUTOMATION TEST REPORT");
-		report.config().setReportName("PMT BASIC FUNCTIONALITY TEST REPORT");
+		report.config().setReportName(" BASIC FUNCTIONALITY TEST REPORT");
 		report.config().setTheme(Theme.DARK);
 		System.out.println("Extent Report Initialized");
 		report.start();
 		
 		extent = new ExtentReports();
 		extent.attachReporter(report);
-		extent.setSystemInfo(" Application", "PRODUCT MANAGEMENT TOOL");
+		extent.setSystemInfo(" Application", "NEWSTUCK TOOL");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("Username", System.getProperty("user.name"));
 		System.out.println("Sytem Info in Extent Report");
